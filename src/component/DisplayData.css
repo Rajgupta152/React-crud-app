@@ -1,0 +1,56 @@
+.table tr th{
+    background-color: blueviolet;
+    color: #fff;
+    height: 40px;
+}
+.table{
+    /* background-color: red; */
+    margin-top: 50px;
+    width: 700px;
+    border-collapse: collapse;
+}
+.table tr td{
+    height: 30px;
+}
+tr:nth-of-type(odd) { 
+	background: #eee; 
+}
+.delete-btn{
+    background-color: rgb(164, 27, 27);
+    border: 0;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    color: #fff;
+}
+.delete-btn:hover{
+    background-color: red;
+}
+
+.edit-btn{
+    background-color: green;
+    border: 0;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    color: #fff;
+}
+.edit-btn:hover{
+    background-color:rgb(60, 255, 0);
+}
+@media(max-width:500px){
+    .table{
+        width: 80%;
+        font-size: 0.6rem;
+    }
+    .delete-btn{
+        width: 35px;
+        height: 12px;
+        font-size: 0.5rem;
+    }
+    .edit-btn{
+        width: 30px;
+        height: 12px;
+        font-size: 0.5rem;
+    }
+}
